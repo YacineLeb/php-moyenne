@@ -1,28 +1,29 @@
 <?php
 function trie($tableau)
 {
-    //sort($tableau, SORT_NATURAL | SORT_FLAG_CASE);
-    $switch =0;
-    $bb = false;
-    for ($i=0;$i<count($tableau)-1;$i++)
+    sort($tableau, SORT_NATURAL | SORT_FLAG_CASE);
+    //$switch =0;
+    //$bb = false;
+    /*for ($i=0;$i<count($tableau)-1;$i++)
     {
-        for($y=$i+1;$y<count($tableau);$y++)
+         if ($tableau[$y]<$tableau[$i])
+       $y=$i+1;
         {
-            if ($tableau[$y]<$tableau[$i])
-            {
-                echo $tableau[$i];
-                echo $tableau[$y];
-                echo "\n";
-                $switch=$tableau[$y];
-                $tableau[$y]=$tableau[$i];
-                $tableau[$i]=$switch;
-                echo $tableau[$i];
-                echo $tableau[$y];
-                echo "\n";
-                break;
-            }
+            echo $tableau[$i];
+            echo $tableau[$y];
+            echo "\n";
+            $switch=$tableau[$y];
+            $tableau[$y]=$tableau[$i];
+            $tableau[$i]=$switch;
+            echo $tableau[$i];
+            echo $tableau[$y];
+            echo "\n";
         }
-    }
+        //for($y=$i+1;$y<count($tableau);$y++)
+        //{
+
+       // }
+    }*/
     return $tableau;
 }
 function medianee($tableau)
