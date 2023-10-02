@@ -36,6 +36,6 @@ echo "La moyenne est de : ". moyenne($tab);
 echo "<br>";
 echo "La mediane est de : ". medianee($tab);
 
-//maaaaaaaaaaa
+//mqdkazodhaçphdaziçhdaopzdhaiodbgausdvhdga
 
 ?>;
