@@ -27,14 +27,14 @@ if (isset($_GET['note1']) && isset($_GET['note2']) && isset($_GET['note3']) &&
     // Faites ce que vous voulez avec les valeurs récupérées ici
     // Par exemple, les afficher ou les traiter d'une certaine manière
     //echo "Note 1 : $tab[0], Note 2 : $tab[1], ..., Note 7 : $tab[6]";
-    echo "\n";
+    echo "<br>";
 } else {
     echo "Toutes les notes ne sont pas fournies.";
     }
 trie($tab);
 echo "La moyenne est de : ". moyenne($tab);
-echo "\n";
-echo "La médiane est de : ". medianee($tab);
+echo "<br>";
+echo "La mediane est de : ". medianee($tab);
 
-
+//test ....
 ?>;
